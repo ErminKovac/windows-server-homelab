@@ -20,7 +20,7 @@ at zero cost, so I can practice administration in a safe, isolated environment.
 ## What I used
 
 - **VirtualBox 7** — free hypervisor from virtualbox.org
-- **Windows Server 2022 Evaluation ISO** — free 180-day trial from microsoft.com/evalcenter
+- **Windows Server 2022 Evaluation ISO**  free 180-day trial from microsoft.com/evalcenter
   (no credit card required, just a Microsoft account)
 
 ---
@@ -89,9 +89,9 @@ at zero cost, so I can practice administration in a safe, isolated environment.
 - VirtualBox threw this error and the VM aborted on the very first start
 - The error means the CPU supports virtualization but it was turned off in BIOS
 - Fixed by:
-  1. Restarting the PC and pressing **Delete** to enter BIOS (MSI motherboard)
+  1. Restarting the PC and pressing Delete to enter BIOS (MSI motherboard)
   2. Going to Advanced → CPU Configuration
-  3. Finding **SVM Mode** (AMD's name for virtualization) and setting it to **Enabled**
+  3. Finding SVM Mode (AMD's name for virtualization) and setting it to Enabled
   4. Pressing F10 to save and exit
 - After rebooting into Windows, the VM started without any errors
 - Lesson: virtualization must be enabled in BIOS before any hypervisor
