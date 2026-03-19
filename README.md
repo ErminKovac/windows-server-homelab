@@ -30,8 +30,6 @@ Completed as part of preparation for a System Administrator role.
 - [x] Created and linked Group Policy Objects (GPOs)
 - [x] Configured DHCP server and scope
 - [x] Explored PowerShell for basic administration
-- [ ] File server with NTFS permissions (planned)
-- [ ] Hyper-V exploration (planned)
 
 ---
 
